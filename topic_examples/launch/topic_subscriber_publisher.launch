@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- C++ ros node in Class -->
+    <node pkg="topic_examples" type="class_publisher_cpp" name="class_publisher_cpp" output="screen"/>
+    <!-- <node pkg="topic_examples" type="class_subscriber_cpp" name="class_subscriber_cpp" output="screen"/> -->
+    
+    <!-- C++ ros node -->
+    <!-- <node pkg="topic_examples" type="publisher_cpp" name="publisher_cpp" output="screen"/> -->
+    <!-- <node pkg="topic_examples" type="subscriber_cpp" name="subscriber_cpp" output="screen"/> -->
+
+    <!-- python ros node in Class -->
+    <!-- <node pkg="topic_examples" type="class_publisher_py.py" name="class_publisher_py" output="screen"/> -->
+    <node pkg="topic_examples" type="class_subscriber_py.py" name="class_subscriber_py" output="screen"/>
+    
+    <!-- python ros node -->
+    <!-- <node pkg="topic_examples" type="subscriber_py.py" name="subscriber_py" output="screen"/> -->
+    <!-- <node pkg="topic_examples" type="publisher_py.py" name="publisher_py" output="screen"/> -->
+</launch>
