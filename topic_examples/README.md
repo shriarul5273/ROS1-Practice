@@ -29,4 +29,4 @@ in the [msg/custom_msg.msg](https://github.com/shriarul5273/ROS1-Practice/blob/m
 
 ## rqt-graph for visualizing -> **rosrun rqt_graph rqt_graph**
 example :
-<img align="right" src="topic_examples/rqt.png" width=50 />
+<img src="https://github.com/shriarul5273/ROS1-Practice/blob/main/topic_examples/rqt.png" height="200"/>
