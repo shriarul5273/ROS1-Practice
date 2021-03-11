@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="dynamic_param_examples" pkg="param_examples" type="dynamic_param_examples.py" output="screen"/>
+    <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui" args= "-s reconfigure" output="screen"/>
+    
+</launch>
