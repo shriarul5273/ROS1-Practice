@@ -1,0 +1,6 @@
+string: 'foo'
+integer: 1234
+float: 1234.5
+boolean: true
+list: [1.0, mixed list]
+dictionary: {a: b, c: d}
