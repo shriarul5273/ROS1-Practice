@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 import rospy
 import tf
 from geometry_msgs.msg import TransformStamped

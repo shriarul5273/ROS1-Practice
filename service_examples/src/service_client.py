@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import rospy
 from service_examples.srv import custom_srv,custom_srvRequest,custom_srvResponse
