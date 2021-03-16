@@ -14,6 +14,16 @@ This repository contains several ROS Melodic implementation that I have written 
  - Use Python3 for ROS Scripts.
  - Add add_dependencies(name packagename_generate_messages_cpp) to CMakeLists.txt for all C++ programs with custom msg/srv/action.(this may not be needed but I had some issues when running on other computers).
 
+ ## Install :
+ This repository is compatible with  both ROS Melodic and ROS Noetic.
+ ```
+ #ros melodic clone : 
+ git clone -b melodic-devel https://github.com/shriarul5273/ROS1-Practice.git
+ #ros noetic clone :
+ git clone -b noetic-devel https://github.com/shriarul5273/ROS1-Practice.git
+ ```
+ if you find any error,mistake please open a issue.
+
 ## License and Warranty
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
   <img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
